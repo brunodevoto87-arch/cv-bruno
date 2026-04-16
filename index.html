@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Perfil</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial;
+         }
+         .container {
+            background-color: white;
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+         }
+         
+         img {
+             border-radius: 50%;
+             margin-bottom: 10px;
+         }
+        
+         h1 {
+            margin: 10px 0;
+         }
+
+         ul {
+            list-style-type: none;
+            padding: 0;
+         }
+         a {
+             display: inline-block;
+             margin-top: 10px;
+             padding: 10px;
+             background-color: #4caf50;
+             color: white;
+             text-decoration: none;
+             border-radius: 5px;
+         }
+         a:hover {
+             background-color: #45a049;
+         }
+         p {
+            color: #555;
+         }
+         @media print{
+            body {
+                background-color: white;
+            }
+            .container {
+                box-shadow: none;
+                margin: 0;
+                width: 100%;    
+            }
+            a {
+                background-color: black;
+                
+            }
+         }
+    </style>
+
+</head> 
+<body>
+<div class="container">
+<h1>Bruno Devoto</h1>
+<p>Soy estudiante de programacion y estoy aprendiendo Python y desarrollo web</p>
+<img src="img/bruno.jpg" alt="Mi foto de perfil" width="150">
+
+<h2>Habilidades</h2>
+<ul>
+    <li>Python</li>
+    <li>Logica de programacion</li>
+</ul>
+<h2>Contacto</h2>
+<a href="https://wa.me/5493425254356" target="_blank" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Mi Whatsapp</a>
+</div>
+</body>
+</html>
